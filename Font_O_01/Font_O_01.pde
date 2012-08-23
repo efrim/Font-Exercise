@@ -12,6 +12,7 @@ void setup() {
 }
 
 void draw() {
+  smooth();
   background(0);
   translate(200,200);
   for(int i=0 ; i<layers ; i++){
